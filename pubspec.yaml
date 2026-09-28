@@ -1,0 +1,24 @@
+name: dual_mode_video_call
+description: "Dual-Mode Hybrid Online and Offline WebRTC Video Calling Application"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_webrtc: ^0.9.48
+  socket_io_client: ^2.0.3+1
+  connectivity_plus: ^6.0.0
+  permission_handler: ^11.3.1
+  http: ^1.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true

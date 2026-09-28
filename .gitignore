@@ -1,0 +1,25 @@
+# Flutter & Dart Build Artifacts
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+build/
+*.flutter-plugins
+*.flutter-plugins-dependencies
+
+# Android Artifacts
+android/local.properties
+android/.gradle/
+android/app/build/
+
+# iOS Artifacts
+ios/Flutter/Generated.xcconfig
+ios/Flutter/app.flx
+ios/Flutter/app.framework
+ios/Flutter/flutter_assets/
+ios/Flutter/ephemeral/
+ios/Runner/GeneratedPluginRegistrant.h
+ios/Runner/GeneratedPluginRegistrant.m
+
+# Node.js
+node_modules/
+npm-debug.log
